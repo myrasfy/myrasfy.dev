@@ -6,7 +6,7 @@
 
 This is **personal portfolio website** of a person under the nickname "myrasfy", a full-stack developer 🤍
 
-![WebsiteScreenshot](./public/assets/pfp.jpg)
+![WebsiteScreenshot](./public/assets/screenshot.png)
 
 ## 📄 LICENSE
 
