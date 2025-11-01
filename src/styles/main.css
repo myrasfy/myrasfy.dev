@@ -132,12 +132,14 @@ table {
 /* MY STYLE */
 
 @font-face {
-    font-family: "BricolageGrotesque";
+    font-family: "bricolageGrotesque";
     src: url("../fonts/bricolageGrotesque.ttf");
 }
 
 body {
-    font-family: "BricolageGrotesque";
+    font-family: "bricolageGrotesque";
+    padding-top: 50px;
+    background: #000000;
 }
 
 h1,
@@ -147,7 +149,7 @@ h4,
 h5,
 h6,
 p {
-    font-family: "BricolageGrotesque";
+    font-family: "bricolageGrotesque";
 }
 
 .navbar {
@@ -157,6 +159,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -199,4 +204,85 @@ p {
     transform: skewX(-45deg) scale(1, 1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+}
+
+.welcome {
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: #131313;
+    background: linear-gradient(to bottom, #000000, #131313 10%);
+    color: #ffffff;
+    justify-content: center;
+    scroll-margin-top: 50px;
+}
+
+.welcomeContent {
+    display: flex;
+    align-items: center;
+    gap: 25%;
+    overflow: hidden;
+}
+
+.welcomeText {
+    font-size: 50px;
+}
+
+.julioCaesar {
+    padding-top: 20px;
+}
+
+.aboutMe {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.expertise {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.projects {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* TEMP CHATGPT CODE */
+
+#loadAnimation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+#loadBackground {
+    z-index: 1;
+}
+
+#darkOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
 }

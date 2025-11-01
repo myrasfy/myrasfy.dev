@@ -10,29 +10,42 @@
 </head>
 
 <body>
+    <div id="loadAnimation">
+        <img id="loadBackground" src="./public/loadAnimation.gif" alt="loadAnimation">
+        <div id="darkOverlay"></div>
+    </div>
     <header>
         <nav class="navbar">
             <ul>
                 <li><a href="#welcome">Welcome</a></li>
-                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
                 <li><a href="#expertise">Expertise</a></li>
                 <li><a href="#projects">Projects</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section id="welcome">
+        <section class="welcome" id="welcome">
+            <div class="welcomeContent">
+                <div class="welcomeText">
+                    <h1>Welcome</h1>
+                    <p>Im myrasfy</p>
+                </div>
+                <img class="julioCaesar" src="./public/julioCaesar.png" alt="Julio Caesar photo">
+            </div>
         </section>
-        <section id="aboutme">
+        <section class="aboutMe" id="aboutMe">
         </section>
-        <section id="expertise">
+        <section class="expertise" id="expertise">
         </section>
-        <section id="#projects">
+        <section class="projects" id="projects">
         </section>
     </main>
     <footer>
     </footer>
     <script src="./src/scripts/loadAnimation.js"></script>
+    <script src="./src/scripts/sectionsAnimation.js"></script>
+    <script src="./src/scripts/imageScroll.js"></script>
 </body>
 
 </html>
