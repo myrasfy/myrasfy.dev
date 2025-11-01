@@ -6,7 +6,9 @@
 
 This is **personal portfolio website** of a person under the nickname "myrasfy", a full-stack developer 🤍
 
-![WebsiteScreenshot](./public/assets/screenshot.png)
+![WebsiteScreenshot](./public/screenshot.png)
+
+You can find all the information about me on my website: [**myrasfy.dev**](https://myrasfy.vercel.app)
 
 ## 📄 LICENSE
 
